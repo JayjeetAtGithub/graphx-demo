@@ -57,11 +57,3 @@ graph.edges.filter {
   case Edge(city1, city2, distance) =>
   println(s"The distance between $city1 and $city2 is $distance")
 }
-
-// creating an undirected graph by reversing the edges
-val undirectedEdgeRDD = graph.reverse.edges.union(graph.edges)
-val graph = Graph(verRDD, undirectedEdgeRDD)
-
-// aggregate
-val neighbors = graph.aggregateMessages[Int](ectx => ectx.sendToSrc(ectx.dstAttr._2), _ + _)
-neighbors.foreach(println(_))
