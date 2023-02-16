@@ -1,7 +1,7 @@
 1,Suneo,Suneo
 2,Gian,Gian
 3,Nobita,Nobita
-4,Jane,Jane
+4,Doraemon,Doraemon
 5,Dekisugi,Dekisugi
 6,Shizuka,Shizuka
 7,Teacher,Teacher
