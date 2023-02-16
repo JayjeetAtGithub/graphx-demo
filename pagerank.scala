@@ -1,8 +1,6 @@
 import org.apache.spark.graphx.GraphLoader
 import org.apache.spark.sql.SparkSession
 
-
-
 // Load the edges as a graph
 val graph = GraphLoader.edgeListFile(sc, "followers.txt")
 // Run PageRank
