@@ -5,3 +5,4 @@
 5,Dekisugi,Dekisugi
 6,Shizuka,Shizuka
 7,Teacher,Teacher
+8,Nobisuke Nobi,Nobisuke Nobi
