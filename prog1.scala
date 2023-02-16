@@ -4,12 +4,12 @@ import org.apache.spark.graphx.lib._
 
 // define vertex array
 val verArray = Array(
-  (1L, ("Philadelphia", 1580863)),
-  (2L, ("Baltimore", 620961)),
-  (3L, ("Harrisburg", 49528)),
-  (4L, ("Wilmington", 70851)),
-  (5L, ("New York", 8175133)),
-  (6L, ("Scranton", 76089))
+  (1L, ("Dublin", 1580863)),
+  (2L, ("San Jose", 620961)),
+  (3L, ("Menlo Park", 49528)),
+  (4L, ("Fremont", 70851)),
+  (5L, ("Oakland", 8175133)),
+  (6L, ("San Francisco", 76089))
 )
 
 println(verArray)
